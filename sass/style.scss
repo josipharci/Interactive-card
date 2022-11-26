@@ -1,0 +1,14 @@
+$primary_color1:hsl(249, 99%, 64%);
+$primary_color2:hsl(278, 94%, 30%);
+$primary_color3:hsl(0, 100%, 66%);
+
+$neutral_color1:hsl(0, 0%, 100%);
+$neutral_color2:hsl(270, 3%, 87%);
+$neutral_color3:hsl(279, 6%, 55%);
+$neutral_color4:hsl(278, 68%, 11%);
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+  background: $neutral_color1;
+}
