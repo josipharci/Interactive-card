@@ -12,4 +12,12 @@ body {
 }
 .left_box img {
   width: 100%;
+}
+
+.right_box {
+  width: 70%;
+  float: right;
+}
+.right_box form label {
+  color: hsl(278deg, 94%, 30%);
 }/*# sourceMappingURL=style.css.map */
