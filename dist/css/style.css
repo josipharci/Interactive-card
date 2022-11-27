@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 body {
   background: hsl(0deg, 0%, 100%);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.left_box {
+  width: 30%;
+  float: left;
+}
+.left_box img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
