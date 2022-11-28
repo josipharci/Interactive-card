@@ -36,6 +36,15 @@ body{
          color: $primary_color2;
        }
     }
+
+    .form_container{
+      width: 500px;
+      height: 400px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
 }
 
 

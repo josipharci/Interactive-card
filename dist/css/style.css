@@ -20,4 +20,12 @@ body {
 }
 .right_box form label {
   color: hsl(278deg, 94%, 30%);
+}
+.right_box .form_container {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
