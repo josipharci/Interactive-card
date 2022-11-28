@@ -25,15 +25,17 @@ body {
   width: 500px;
   height: 400px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 70%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
 .right_box .form_container label {
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
 }
 .right_box .form_container input {
+  width: 290px;
   height: 20px;
   padding: 5px 5px;
   border-radius: 5px;
@@ -41,14 +43,18 @@ body {
 .right_box .form_container #MM, .right_box .form_container #YY {
   width: 50px;
 }
+.right_box .form_container #CVC {
+  width: 100px;
+}
 .right_box .form_container #button {
   display: flex;
   background: hsl(278deg, 94%, 30%);
   color: hsl(0deg, 0%, 100%);
   flex-direction: column;
   margin-top: 10px;
-  padding: 5px;
+  padding: 10px;
   width: 300px;
   height: 35px;
   align-items: center;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
