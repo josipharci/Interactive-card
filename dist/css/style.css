@@ -34,8 +34,11 @@ body {
   flex-direction: column;
   margin-top: 5px;
 }
+.right_box .form_container label:nth-child(8) {
+  width: 100px;
+}
 .right_box .form_container input {
-  width: 290px;
+  width: 288px;
   height: 20px;
   padding: 5px 5px;
   border-radius: 5px;
@@ -48,7 +51,7 @@ body {
 }
 .right_box .form_container #button {
   display: flex;
-  background: hsl(278deg, 94%, 30%);
+  background: hsl(278deg, 68%, 11%);
   color: hsl(0deg, 0%, 100%);
   flex-direction: column;
   margin-top: 10px;

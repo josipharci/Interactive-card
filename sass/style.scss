@@ -49,10 +49,13 @@ body{
         flex-direction:column;
         margin-top: 5px;
       }
+      label:nth-child(8){
+         width: 100px;
+         
+      }
      
-
       input{
-        width: 290px;
+        width: 288px;
         height: 20px;
         padding: 5px 5px;
         border-radius: 5px;
@@ -62,11 +65,12 @@ body{
       }
       #CVC{
         width: 100px;
+       
       }
 
       #button{
         display:flex;
-        background: $primary_color2;
+        background: $neutral_color4;
         color: $neutral_color1;
         flex-direction:column;
         margin-top: 10px;
