@@ -20,6 +20,28 @@ body{
   margin: 0;
 }
 
+.card_front{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 400px;
+  height: 200px;
+     img{
+      width: 100%;
+     }
+}
+
+.card_back{
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 400px;
+  height: 200px;
+     img{
+      width: 100%;
+     }
+}
+
 .left_box{
   width: 30%;
   float: left;
