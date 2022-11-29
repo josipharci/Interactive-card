@@ -49,9 +49,14 @@ body{
         flex-direction:column;
         margin-top: 5px;
       }
+      label:nth-child(5){
+        padding-right: 5px;
+      }
       label:nth-child(8){
          width: 100px;
-         
+         position: absolute;
+         left: 30%;
+         top: 30%;
       }
      
       input{
@@ -64,8 +69,8 @@ body{
         width: 50px;
       }
       #CVC{
-        width: 100px;
-       
+        width: 135px;
+        margin-left: 15px;
       }
 
       #button{

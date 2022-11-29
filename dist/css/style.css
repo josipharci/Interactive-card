@@ -34,8 +34,14 @@ body {
   flex-direction: column;
   margin-top: 5px;
 }
+.right_box .form_container label:nth-child(5) {
+  padding-right: 5px;
+}
 .right_box .form_container label:nth-child(8) {
   width: 100px;
+  position: absolute;
+  left: 30%;
+  top: 30%;
 }
 .right_box .form_container input {
   width: 288px;
@@ -47,7 +53,8 @@ body {
   width: 50px;
 }
 .right_box .form_container #CVC {
-  width: 100px;
+  width: 135px;
+  margin-left: 15px;
 }
 .right_box .form_container #button {
   display: flex;
