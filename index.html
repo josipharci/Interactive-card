@@ -6,13 +6,14 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="dist/images/favicon-32x32.png">
 	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
 	<title>INTERACTIVE-CARD</title>
+	
 	<div class="left_box">
-       <img src="dist/images/bg-main-desktop.png" alt="bg-color">
+       <img id="left_img" src="dist/images/bg-main-desktop.png" alt="bg-color">
 	   <div class="card_front">
 		 <img id="logo" src="dist/images/card-logo.svg" alt="logo">
 		 <img src="dist/images/bg-card-front.png" alt="card">
 		 <p id="card-number">0000 0000 0000 0000</p>
-		 <p id="name">JANE APPLESEED</p>
+		 <p id="name"></p>
 		 <p id="date">00/00</p>
 	   </div>
 	   <div class="card_back">
@@ -22,17 +23,17 @@
 	</div>
 	<div class="right_box">
 		<div class="form_container">
-		<form action="">
+		<form id="from" method="GET" action="/">
 			<label for="card_name">CARDHOLDER NAME</label>
-			<input type="text" placeholder="e.g. Jane Appleseed">
+			<input type="text" name="name" placeholder="e.g. Jane Appleseed">
 			<label for="card_number">CARD NUMBER</label>
-			<input type="text" placeholder="e.g. 1234 5678 9123 0000">
+			<input type="text" name="card_number" placeholder="e.g. 1234 5678 9123 0000">
 			<label for="Exp_date">EXP.DATE(MM/YY)</label>
-			<input id="MM" type="text" placeholder="MM">
-			<input id="YY" type="text" placeholder="YY">
+			<input id="MM" type="text" name="MM" placeholder="MM">
+			<input id="YY" type="text" name="YY" placeholder="YY">
 			<label for="CVC">CVC</label>
-			<input id="CVC" type="text" placeholder="e.g. 123">
-			<input id="button" type="button" value="Confirm">
+			<input id="CVC" type="text" name="CVC" placeholder="e.g. 123">
+			<input id="button" type="submit" value="Confirm">
 		</form>
 		</div>
 	</div>
@@ -41,7 +42,7 @@
  
 
 <!-- Js script -->
-<script src="./js/main.js"></script>
+<script src="dist/js/main.js"></script>
 <!-- end Js script -->
 </body>   
 </html>
