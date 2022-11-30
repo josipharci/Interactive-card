@@ -20,12 +20,6 @@ body{
   margin: 0;
 }
 
-.logo{
-  position: absolute;
-  top: 10%;
-  left: 10%;
-}
-
 .card_front{
   position: absolute;
   top: 15%;
@@ -35,6 +29,33 @@ body{
      img{
       width: 100%;
      }
+     #logo{
+      width: 20%;
+      height: auto;
+      position: absolute;
+      left:7%;
+      top:10%;
+    }
+    #card-number{
+      color:$neutral_color1;
+      font-size: 1.4rem;
+      letter-spacing: 5px;
+      position: absolute;
+      left: 7%;
+      top: 45%;
+    }
+    #name{
+      color: $neutral_color1;
+      position: absolute;
+      left:7%;
+      top: 80%;
+    }
+    #date{
+      color: $neutral_color1;
+      position: absolute;
+      left: 79%;
+      top: 80%;
+    }
 }
 
 .card_back{
@@ -45,6 +66,13 @@ body{
   height: 200px;
      img{
       width: 100%;
+     }
+     #cvc_content{
+      color: $neutral_color1;
+      font-size: 1.0rem;
+      position: absolute;
+      top: 40%;
+      left: 80%;
      }
 }
 

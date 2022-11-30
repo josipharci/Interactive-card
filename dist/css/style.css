@@ -6,12 +6,6 @@ body {
   margin: 0;
 }
 
-.logo {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-}
-
 .card_front {
   position: absolute;
   top: 15%;
@@ -21,6 +15,33 @@ body {
 }
 .card_front img {
   width: 100%;
+}
+.card_front #logo {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 7%;
+  top: 10%;
+}
+.card_front #card-number {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 7%;
+  top: 45%;
+}
+.card_front #name {
+  color: hsl(0deg, 0%, 100%);
+  position: absolute;
+  left: 7%;
+  top: 80%;
+}
+.card_front #date {
+  color: hsl(0deg, 0%, 100%);
+  position: absolute;
+  left: 79%;
+  top: 80%;
 }
 
 .card_back {
@@ -32,6 +53,13 @@ body {
 }
 .card_back img {
   width: 100%;
+}
+.card_back #cvc_content {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 80%;
 }
 
 .left_box {
