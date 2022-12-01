@@ -23,16 +23,19 @@
 	</div>
 	<div class="right_box">
 		<div class="form_container">
-		<form id="from" method="GET" action="/">
+		<form id="form" method="GET" action="/">
 			<label for="card_name">CARDHOLDER NAME</label>
 			<input type="text" name="name" placeholder="e.g. Jane Appleseed">
 			<label for="card_number">CARD NUMBER</label>
+			<span id="card_number_error">Wrong format,numbers only</span>
 			<input type="text" name="card_number" placeholder="e.g. 1234 5678 9123 0000">
 			<label for="Exp_date">EXP.DATE(MM/YY)</label>
 			<input id="MM" type="text" name="MM" placeholder="MM">
 			<input id="YY" type="text" name="YY" placeholder="YY">
+			<span id="MM_YY_error">Can't be blank</span>
 			<label for="CVC">CVC</label>
 			<input id="CVC" type="text" name="CVC" placeholder="e.g. 123">
+			<span id="CVC_error">Can't be blank</span>
 			<input id="button" type="submit" value="Confirm">
 		</form>
 		</div>

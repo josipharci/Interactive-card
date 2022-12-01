@@ -122,7 +122,7 @@ body{
       label:nth-child(5){
         padding-right: 5px;
       }
-      label:nth-child(8){
+      label:nth-child(10){
          width: 100px;
          position: absolute;
          left: 30%;
@@ -144,13 +144,32 @@ body{
         width: 105px;
         margin-left: 15px;
       }
+      span{
+        font-size: 0.6rem;
+        color: $primary_color3;
+        position: absolute;
+      }
+
+      #card_number_error{
+        top: 36%;
+      }
+
+      #MM_YY_error{
+        top: 54%;
+        left: 0;
+      }
+
+      #CVC_error{
+        top: 54%;
+        left: 30%;
+      }
 
       #button{
         display:flex;
         background: $neutral_color4;
         color: $neutral_color1;
         flex-direction:column;
-        margin-top: 15px;
+        margin-top: 20px;
         padding: 12px 0;
         width: 265px;
         height: 40px;
