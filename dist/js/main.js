@@ -1,8 +1,12 @@
-const name = document.getElementById('name');
-const card_number = document.getElementById('card_number');
-const MM = document.getElementById('MM');
-const YY = document.getElementById('YY');
-const CVC = document.getElementById('CVC');
-const from = document.getElementById('from');
+var name = document.getElementById('name');
+var card_number = document.getElementById('card_number');
+var MM = document.getElementById('MM');
+var YY = document.getElementById('YY');
+var CVC = document.getElementById('CVC');
+var from = document.getElementById('from');
+
+var card_number_error = document.getElementById('card_number_error');
+var MM_YY_error = document.getElementById('MM_YY_error');
+var CVC_error = document.getElementById('CVC_error');
 
 
