@@ -105,7 +105,7 @@ body {
 .right_box .form_container label:nth-child(5) {
   padding-right: 5px;
 }
-.right_box .form_container label:nth-child(10) {
+.right_box .form_container label:nth-child(11) {
   width: 100px;
   position: absolute;
   left: 30%;
@@ -131,7 +131,12 @@ body {
   color: hsl(0deg, 100%, 66%);
   position: absolute;
 }
+.right_box .form_container #name_error {
+  top: 18%;
+  left: 0;
+}
 .right_box .form_container #card_number_error {
+  left: 0;
   top: 36%;
 }
 .right_box .form_container #MM_YY_error {

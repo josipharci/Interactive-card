@@ -122,7 +122,7 @@ body{
       label:nth-child(5){
         padding-right: 5px;
       }
-      label:nth-child(10){
+      label:nth-child(11){
          width: 100px;
          position: absolute;
          left: 30%;
@@ -149,8 +149,12 @@ body{
         color: $primary_color3;
         position: absolute;
       }
-
+      #name_error{
+        top: 18%;
+        left: 0;
+      }
       #card_number_error{
+        left: 0;
         top: 36%;
       }
 
