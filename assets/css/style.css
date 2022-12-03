@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .left {
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-image: url(../images/bg-main-desktop.png);
+}
+.container .left .card {
+  width: 375px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 20px #000;
+  margin-top: 20px;
+  position: absolute;
+}
+.container .left .cardFront {
+  left: 10%;
+  top: 10%;
+  color: hsl(0deg, 0%, 100%);
+  background-image: url(../images/bg-card-front.png);
+  background-repeat: no-repeat;
+  background-size: 375px 200px;
+}
+.container .left .cardFront img {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.container .left .cardFront #cardFrontNum {
+  font-size: 1.4rem;
+  letter-spacing: 0.18em;
+  margin-left: 25px;
+  margin-top: 45px;
+}
+.container .left .cardFront #cardFrontName {
+  float: left;
+  font-size: 0.85rem;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.container .left .cardFront #cardFrontMMYY {
+  float: right;
+  margin-right: 30px;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+.container .left .cardBack {
+  top: 48%;
+  left: 15%;
+  color: hsl(0deg, 0%, 100%);
+  background-image: url(../images/bg-card-back.png);
+  background-repeat: no-repeat;
+  background-size: 375px 200px;
+}
+.container .left #cardBackNum {
+  float: right;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  margin-top: 90px;
+  margin-right: 45px;
+}
+.container .right {
+  width: 70%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+.container .right .form {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  margin: -50px 0 0 -50px;
+}
+.container .right .formContent {
+  width: 100%;
+  height: 70px;
+}
+.container .right .formContent label {
+  float: left;
+  color: hsl(278deg, 68%, 11%);
+  font-weight: 700;
+  padding-bottom: 2px;
+  width: 100%;
+  font-size: 0.75rem;
+  display: block;
+}
+.container .right .formContent input {
+  float: left;
+  display: block;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid hsl(279deg, 6%, 55%);
+}
+.container .right .formContent input::-moz-placeholder {
+  padding-left: 10px;
+}
+.container .right .formContent input:-ms-input-placeholder {
+  padding-left: 10px;
+}
+.container .right .formContent input::placeholder {
+  padding-left: 10px;
+}
+.container .right .formContent span {
+  color: hsl(0deg, 100%, 66%);
+  font-size: 0.8rem;
+}
+.container .right #MMYYnum {
+  float: left;
+  width: 50%;
+}
+.container .right #MMYYnum input {
+  width: 40%;
+  margin-right: 5px;
+}
+.container .right #CVCnum {
+  float: right;
+  width: 50%;
+}
+.container .right .submit input {
+  margin-top: 15px;
+  height: 38px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(278deg, 68%, 11%);
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
