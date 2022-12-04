@@ -105,17 +105,14 @@ body {
   display: block;
   width: 100%;
   height: 30px;
+  padding-left: 10px;
   border-radius: 5px;
   border: 1px solid hsl(279deg, 6%, 55%);
 }
-.container .right .formContent input::-moz-placeholder {
-  padding-left: 10px;
-}
-.container .right .formContent input:-ms-input-placeholder {
-  padding-left: 10px;
-}
-.container .right .formContent input::placeholder {
-  padding-left: 10px;
+.container .right .formContent input:focus {
+  outline: none !important;
+  border-color: rebeccapurple;
+  box-shadow: 0 0 10px hsl(270deg, 3%, 87%);
 }
 .container .right .formContent span {
   color: hsl(0deg, 100%, 66%);

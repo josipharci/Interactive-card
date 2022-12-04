@@ -110,12 +110,15 @@ $neutral_color4:hsl(278, 68%, 11%);
                     display: block;
                     width: 100%;
                     height: 30px;
+                    padding-left: 10px;
                     border-radius: 5px;
                     border: 1px solid $neutral_color3;
                 }
-                input::placeholder{
-                    padding-left: 10px;
-                }
+                input:focus{
+                    outline: none !important;
+                    border-color:rebeccapurple;
+                    box-shadow: 0 0 10px $neutral_color2;
+                  }
                 span{
                     color: $primary_color3;
                     font-size: 0.8rem;
