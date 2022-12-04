@@ -12,6 +12,7 @@ const fullNameError = document.getElementById('fullNameError');
 const cardNumberError = document.getElementById('cardNumberError');
 const MMYYNumberError = document.getElementById('MMYYNumberError');
 const CVCNumberError = document.getElementById('CVCNumberError');
+const complete = document.getElementById('complete');
 
 function cardAction(){
 
@@ -19,22 +20,33 @@ function cardAction(){
     
         if(cardNumber.value === ""){
             cardNumberError.innerHTML = "Wrong format, number only";
+            cardNumber.style.borderColor = "red";
         }else{
             cardNumberError.innerHTML = "";
         }
     
         if(MMNumber.value === ""){
             MMYYNumberError.innerHTML = "Can't be blank";
+            MMNumber.style.borderColor = "red";
+        }else{
+            MMYYNumberError.innerHTML = ""; 
+        }
+
+        if(YYNumber.value === ""){
+            MMYYNumberError.innerHTML = "Can't be blank";
+            YYNumber.style.borderColor = "red";
         }else{
             MMYYNumberError.innerHTML = ""; 
         }
     
-        if(YYNumber.value === ""){
+        if(CVCNumber.value === ""){
             CVCNumberError.innerHTML = "Can't be blank";
+            CVCNumber.style.borderColor = "red";
         }else{
             CVCNumberError.innerHTML = ""; 
         }
-        
+
+
         if(cardNumber.value == ""){
             cardFrontNum.innerHTML = "0000 0000 0000 0000";
         }else{
@@ -59,8 +71,20 @@ function cardAction(){
             cardFrontMMYY.innerHTML= MMNumber.value + '/' + YYNumber.value;
         }
 
+        if(submit.value, CVCNumber.value === ""){
+            form.style.visibility="visible";
+            complete.style.visibility="hidden";
+        }else{
+            form.style.visibility="hidden";
+            complete.style.visibility="visible";
+        }
+
         
 }
+
+function refreshPage(){
+    window.location.reload();
+} 
 
 submit.addEventListener('click', cardAction);
 
