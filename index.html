@@ -29,18 +29,18 @@
 			</div>
 			<div class="formContent">
 				<label for="cardNumber">CARD NUMBER</label>
-					<input type="text" id="cardNumber" name="cardNumber" placeholder="e.g. 1234 5678 9123 0000">
+					<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"  maxlength="19" id="cardNumber" name="cardNumber" placeholder="e.g. 1234 5678 9123 0000">
 						<span id="cardNumberError"></span>
 			</div>
 			<div class="formContent" id="MMYYnum">
 				<label for="MMNumber">EXP DATE(MM/YY)</label>
-					<input type="text" id="MMNumber" name="MMNumber" placeholder="MM">
-					<input type="text" id="YYNumber" name="YYNumber" placeholder="YY">
+					<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="2"  id="MMNumber" name="MMNumber" placeholder="MM">
+					<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="2"  id="YYNumber" name="YYNumber" placeholder="YY">
 						<span id="MMYYNumberError"></span>
 			</div>
 			<div class="formContent" id="CVCnum">
 				<label for="CVCNumber">CVC</label>
-					<input type="text" id="CVCNumber" name="CVCNumber" placeholder="e.g. 123">
+					<input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="3" id="CVCNumber" name="CVCNumber" placeholder="e.g. 123">
 						<span id="CVCNumberError"></span>
 			</div>
 			<div class="submit formContent">

@@ -86,5 +86,12 @@ function refreshPage(){
     window.location.reload();
 } 
 
+cardNumber.addEventListener("keyup", function(){
+    txt=cardNumber.value;
+    if (txt.length== 4 || txt.length== 9 || txt.length== 14)
+      cardNumber.value=cardNumber.value+" "; 
+  });
+
+
 submit.addEventListener('click', cardAction);
 
